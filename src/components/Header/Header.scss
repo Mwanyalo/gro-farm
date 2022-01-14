@@ -1,0 +1,55 @@
+header,
+section {
+    overflow: hidden;
+}
+#loading {
+    background-color: #FFF;
+    height: 100%;
+    width: 100%;
+}
+/*start-my-nav-section*/
+#my-nav {
+    font-family: 'M PLUS 1p', sans-serif;
+    margin: 0rem 0rem !important;
+    padding: 0rem 0rem !important;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+.navbar {
+    background: transparent;
+    margin: 0rem;
+    transition-duration: 0.7s;
+}
+
+.navbar.scrolled {
+    background: #33222C;
+
+}
+
+.navbar a {
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: #fff !important;
+    padding: 5px;
+    margin-left: 0.4em;
+}
+
+.active-nav {
+    color: #fff !important;
+    background-color: #9CB620;
+    border-bottom-right-radius: 1rem;
+}
+
+.navbar a:hover {
+    color: #fff !important;
+    background-color: #9CB620;
+    transition-duration: 0.6s;
+    border-bottom-right-radius: 1rem;
+}
+
+.navbar-toggler {
+    border: none;
+    outline: none;
+}

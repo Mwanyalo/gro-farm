@@ -1,0 +1,36 @@
+#home {
+    background-size: cover;
+    background-position: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.carousel-caption {
+    padding-bottom: 4em;
+    font-family: 'Tenali Ramakrishna', sans-serif;
+}
+
+.carousel-caption h2 {
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+.carousel-caption h2 span {
+    color: #9CB620;
+}
+
+.carousel-caption p {
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    font-size: 1.5em !important;
+}
+
+.tagline {
+    color: #fff;
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+}

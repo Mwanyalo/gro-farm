@@ -1,0 +1,98 @@
+#contact {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+    background-attachment: fixed;
+    background-size: center;
+    background-repeat: no-repeat;
+    margin-top: 2rem;
+    color: #fff;
+}
+
+#sm-section {
+    margin-top: 10rem;
+}
+
+#sm-section p {
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    font-size: 1.2rem;
+    margin-top: 0.8rem;
+    color: #fff;
+}
+
+#sm-section span {
+    margin-top: 0.5rem
+}
+
+.social-icon a {
+    color: #9CB620;
+    text-decoration: none;
+    margin-top: 0.9rem;
+    padding: 1em;
+}
+
+.social-icon a:hover i {
+    transform: translateY(-5px);
+    transition-duration: 0.5s;
+}
+
+#contact-section h3 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 3rem;
+    margin-top: 3rem;
+    color: #fff;
+}
+
+.contact-form {
+    max-width: 600px;
+    overflow: hidden;
+    padding: 0 10px;
+    margin: auto;
+}
+
+.contact-form-text {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: none;
+    padding: 10px 10px;
+    outline: none;
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    font-weight: bold;
+    transition: 0.5;
+}
+
+.contact-form-text:hover {
+    box-shadow: 0 0 10px 4px #9CB620;
+}
+
+textarea.contact-form-text {
+    resize: none;
+    height: 120px;
+}
+
+.contact-form-btn {
+    border: none;
+    float: right;
+}
+
+.contact-form-btn:hover {
+    box-shadow: 0 0 10px 4px #33222C;
+}
+
+.button {
+    display: inline-flex;
+    height: 40px;
+    width: 150px;
+    box-shadow: 0 5px 15px rgba(227, 247, 49, 0.904);
+    border-radius: 0.4rem;
+    margin: 20px 20px 20px 20px;
+    color: #fff !important;
+    background-color: #9CB620;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: .8em;
+    letter-spacing: 1.5px;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
