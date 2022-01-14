@@ -15,6 +15,7 @@ section {
     position: fixed;
     width: 100%;
     z-index: 10;
+    background: #33222C;
 }
 
 .navbar {
@@ -25,7 +26,6 @@ section {
 
 .navbar.scrolled {
     background: #33222C;
-
 }
 
 .navbar a {

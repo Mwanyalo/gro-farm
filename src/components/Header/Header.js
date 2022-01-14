@@ -21,16 +21,16 @@ class Header extends Component {
               </button>
               <div className='collapse navbar-collapse' id='navbarNavAltMarkup'>
                 <div className='navbar-nav ml-auto '>
-                  <a className='nav-item nav-link ' href='#home'>
+                  <a className='nav-item nav-link ' href='/home#home'>
                     Home
                   </a>
-                  <a className='nav-item nav-link' href='#about-us'>
+                  <a className='nav-item nav-link' href='/home#about-us'>
                     About us
                   </a>
-                  <a className='nav-item nav-link' href='#contact'>
+                  <a className='nav-item nav-link' href='/home#contact'>
                     Contact us
                   </a>
-                  <a className='nav-item nav-link' href='#contact'>
+                  <a className='nav-item nav-link' href='/login'>
                     Log In
                   </a>
                 </div>

@@ -1,0 +1,135 @@
+.auth-container {
+    margin-top: 56px;
+    background-color: rgb(226, 226, 226);
+  
+    .left-section {
+      height: 90vh;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+
+    }
+    
+    .auth-form {
+      color: rgb(0, 0, 0);
+      margin-top: 100px;
+      width: 50%;
+      margin: 10% auto;
+    }
+    header {
+      margin: 0 auto 60px auto;
+      position: relative;
+      height: 25px;
+      overflow: hidden;
+      font-weight: 700;
+    }
+  
+    .header-options {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      width: 100%;
+      transition: all 0.4s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+      margin: 0 0 16px;
+      span {
+        margin: 3px 0;
+      }
+  
+      &.log-in {
+        transform: translateY(0);
+      }
+      &.register {
+        transform: translateY(-35px);
+      }
+      &.forgot {
+        transform: translateY(-60px);
+      }
+    }
+  
+    .form-options {
+      display: flex;
+      align-items: center;
+      width: 350px;
+      list-style-type: none;
+    }
+  
+    .form-options > li {
+      color: #9CB620;
+      cursor: pointer;
+      opacity: 0.5;
+      transition: all 0.2s ease;
+    }
+    .form-options > li:hover {
+      opacity: 1;
+    }
+    .form-options > li.active {
+      font-weight: 700;
+      text-decoration: underline;
+      -webkit-text-decoration-color: #9CB620; /* Safari */
+      text-decoration-color: #9CB620;
+      opacity: 1;
+    }
+    .form-options > li:nth-of-type(2) {
+      margin-left: 15px;
+    }
+    .form-options > li:last-of-type {
+      margin-left: auto;
+    }
+
+    .btn {
+      background: #fff;
+      width: 100%;
+      border: 1px solid #444;
+      padding: 5px 7px;
+      margin-top: 5px;
+      outline: none;
+      cursor: pointer;
+      max-width: 180px;
+      transition: all .3s ease-in-out;
+      font-weight: 500;
+      font-size: 16px;
+    
+      &:hover {
+        background: #444;
+        color: #fff;
+      }
+    
+      &.small {
+        padding: 2.5px;
+      }
+    
+      &.mobile {
+          width: 100%;
+          max-width: 100%;
+      }
+    
+      &.dark {
+        background: #444;
+        color: #fff;
+    
+        &:disabled:hover {
+          background: #777;
+          color: #fff;
+        }
+      }
+    }
+    
+    button:disabled {
+      color: #666;
+      border: 1px solid #666;
+      cursor: no-drop;
+    
+      &:hover {
+        color: #666;
+        background: #fff;
+        border: 1px solid #666;
+      }
+    }
+  
+    @media screen and (max-width: 380px) {
+      .form-options {
+        // width: 100%;
+      }
+    }
+  }
+  

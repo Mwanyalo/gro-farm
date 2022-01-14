@@ -1,0 +1,33 @@
+.login-form {
+
+    label {
+        color: #0466ca;
+        width: 100%;
+        font-weight: 600;
+      }
+      
+      input {
+        width: 100%;
+        line-height: 1.8em;
+        outline: none;
+        border: none;
+        border-bottom: 1px solid #000;
+        background: #fff;
+        margin: 2px 0;
+      
+        &::placeholder {
+          color: #000;
+        }
+      }
+
+      input:focus{
+        border-bottom:1px solid #007bff;	
+        box-shadow:none;
+        outline:0;
+        background-color:#ebebeb;	
+      }
+
+      .switch {
+        text-align: center;
+      }
+}
